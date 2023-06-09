@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Bacdom</title>
+
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mq.css" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logos.png" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About </a>
+          <a href="recipes.html" class="nav-link"> Recipes </a>
+          <a href="contact.html" class="nav-link"> Contact </a>
+
+          <div class="nav-link contact-link">
+            <a href="login.html" class="btn"> Sign in </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-5.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Tortang Talong</h2>
+            <p>
+            Tortang talong, also known as eggplant omelette, is an omelette or fritter from Filipino cuisine made by pan-frying grilled whole eggplants dipped in an egg mixture. It is a popular breakfast and lunch meal in the Philippines.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>13min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 serve</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">Breakfast</a>
+              <a href="tag-template.html">Lunch</a>
+              <a href="tag-template.html">Desserts</a>
+              <a href="tag-template.html">Dinner</a>
+            </p>
+          </article>
+        </section>
+        <!-- contents -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Pierce the eggplant with a fork and roast over open flame until skin is charred. Place in a bowl and cover. Set aside for 10 minutes. Peel the charred skin and flatten with a fork.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Season each eggplant with a pinch of MAGGI® Magic Sarap.
+            </div>
+            <!-- end of single instruction -->
+            <!-- instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Beat an egg in a deep plate and season with a pinch of MAGGI® Magic Sarap®. Dip the eggplant in the beaten egg.
+              </p>
+            </div>
+            <!-- end -->
+            <!-- instruction -->
+            <div class="single-instruction">
+                <header>
+                  <p>step 4</p>
+                  <div></div>
+                </header>
+                <p>
+                    Fry eggplant with the egg until golden brown. Drain excess oil, transfer on a serving plate and serve.
+                </p>
+              </div>
+              <!-- end -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">6pcs Eggplant</p>
+              <p class="single-ingredient">6pcs Egg</p>
+              <p class="single-ingredient">1 sachet MAGGI Magic Sarap 8g</p>
+              <p class="single-ingredient">3 cups Water<br>2tbsp Brown Sugar</p>
+              <p class="single-ingredient">0.5 cup Vegetable Oil</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Pan Fry</p>
+              <p class="single-tool">Plate</p>
+              <p class="single-tool">Gloves</p>
+              <p class="single-tool">Spatchula</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Filipino Food Style</span> Built by
+        <a href="https://web.facebook.com/waleed.bacaraman.9"> Nadine's Husband</a>
+      </p>
+    </footer>
+    <!-- JavaScripts -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
